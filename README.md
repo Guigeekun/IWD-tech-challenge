@@ -1,6 +1,6 @@
 # Junior Integrator
 
-Hey, i'm Guilleme Benoit, i'm taking the test for Junior Integrator Developer, you can learn more about it [here](integrator/junior).
+Hey, i'm Guilleme Benoit, i'm taking the test for Junior Integrator Developer, you can learn more about it [here](doc/tech_test.md).
 
 # Setup
 
@@ -9,9 +9,18 @@ I recommend using `pyenv` to create a virtualenv for this project, learn more he
 ```
 pip install -r requirement.txt 
 ```
+
+Copy `.env.example` and rename it into `.env`
+
+Add your shortcut **access token** into `SHORTCUT_ACCESS_TOKEN`
+
+
+You might need to setup you `Shortcut app`, for that go check [shortcut.md](/doc/shortcut.md)
 # Usage
 
-todo
+```
+python3 main.py
+```
 
 # Doc
 
