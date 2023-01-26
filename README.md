@@ -1,3 +1,33 @@
+# Junior Integrator
+
+Hey, i'm Guilleme Benoit, i'm taking the test for Junior Integrator Developer, you can learn more about it [here](doc/tech_test.md).
+
+# Setup
+
+I recommend using `pyenv` to create a virtualenv for this project, learn more here https://github.com/pyenv/pyenv 
+
+```
+pip install -r requirement.txt 
+```
+
+Copy `.env.example` and rename it into `.env`
+
+Add your shortcut **access token** into `SHORTCUT_ACCESS_TOKEN`
+
+
+You might need to setup you `Shortcut app`, for that go check [shortcut.md](/doc/shortcut.md)
+# Usage
+
+```
+python3 main.py
+```
+
+# Doc
+
+You can find some documentation in the [doc folder](/doc).
+
+More specifically you can read my [work notes](/doc/notes.md) that will explain some decisions i took during the project.
+
 # IWD challenges
 
 Hi! You just found our challenge repository to applying for a job at [IWD](https://iwd.io/).
