@@ -1,3 +1,24 @@
+# Junior Integrator
+
+Hey, i'm Guilleme Benoit, i'm taking the test for Junior Integrator Developer, you can learn more about it [here](integrator/junior).
+
+# Setup
+
+I recommend using `pyenv` to create a virtualenv for this project, learn more here https://github.com/pyenv/pyenv 
+
+```
+pip install -r requirement.txt 
+```
+# Usage
+
+todo
+
+# Doc
+
+You can find some documentation in the [doc folder](/doc).
+
+More specifically you can read my [work notes](/doc/notes.md) that will explain some decisions i took during the project.
+
 # IWD challenges
 
 Hi! You just found our challenge repository to applying for a job at [IWD](https://iwd.io/).
