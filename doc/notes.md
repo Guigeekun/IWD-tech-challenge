@@ -28,3 +28,9 @@ This is why i'll skip the workflow to save some time.
 To make some reusable components, I try to handle these kind of *config vars* as if I was doing `dependency injection`.
 
 By giving those as arg we might be able to reuse the function for many other usages, maybe even in other projects.
+
+
+## async
+The stories creation should be made async, so it would create them all at the same time and save lots of time. Same thing goes for the relations
+
+But again, that might be overkill for such a tiny thing
