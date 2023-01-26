@@ -28,6 +28,8 @@ You can find some documentation in the [doc folder](/doc).
 
 More specifically you can read my [work notes](/doc/notes.md) that will explain some decisions i took during the project.
 
+You can find Shortcut API doc here https://developer.shortcut.com/api/rest/v3
+
 # IWD challenges
 
 Hi! You just found our challenge repository to applying for a job at [IWD](https://iwd.io/).

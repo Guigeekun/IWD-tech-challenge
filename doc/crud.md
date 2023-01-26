@@ -1,4 +1,6 @@
-# Handling epic matching
+# StoryCrud
+
+## Handling epic matching
 
 The CSV file contains some `epic name` instead of an `epic id`, thus we need to match the name with an id
 
@@ -8,9 +10,11 @@ For that we:
   - if yes we keep the `id` in the story object
   - if not we create the epic with `epicCrud.create_epic(url, global_headers, story['epic'])`
 
-## What does it imply
+### What does it imply
 If you have some epic with the names in you Shortcut app already, it won't recreate them and add the stories to these.
 
 The script won't create epics with the same names.
 
 If you wanna check that the script is correctly creating the epics, make sure to delete the already existing ones on your Shortcut app (or rename them)
+
+*Kinda the same goes for matching state*
