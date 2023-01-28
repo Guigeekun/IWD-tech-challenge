@@ -11,3 +11,4 @@ def get_workflow_by_name(url: str, global_headers: dict, workflow_name: str):
     for workflow in workflows:
         if (workflow['name'] == workflow_name):
             return workflow
+    raise ValueError("Couldn't find workflow " + workflow_name)

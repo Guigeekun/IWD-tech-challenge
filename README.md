@@ -6,6 +6,8 @@ Hey, i'm Guilleme Benoit, i'm taking the test for Junior Integrator Developer, y
 
 I recommend using `pyenv` to create a virtualenv for this project, learn more here https://github.com/pyenv/pyenv 
 
+Please use a Python version => 3.8.10
+
 ```
 pip install -r requirement.txt 
 ```
@@ -28,7 +30,7 @@ You can find some documentation in the [doc folder](/doc).
 
 More specifically you can read my [work notes](/doc/notes.md) that will explain some decisions i took during the project.
 
-You can find Shortcut API doc here https://developer.shortcut.com/api/rest/v3
+You can find Shortcut API doc here https://developer.shortcut.com/api/rest/v3 
 
 # IWD challenges
 

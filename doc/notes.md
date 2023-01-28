@@ -34,3 +34,6 @@ By giving those as arg we might be able to reuse the function for many other usa
 The stories creation should be made async, so it would create them all at the same time and save lots of time. Same thing goes for the relations
 
 But again, that might be overkill for such a tiny thing
+
+## UI
+I think that non-web UI are not a good way to do nowadays, in general I would go for a web UI, maybe even in [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) for the smallest project, such a tool should be hosted on a tool-hub with a nice TS web UI I think. 

@@ -1,4 +1,14 @@
-# StoryCrud
+## Calling the API
+
+For that we are using [Requests](https://pypi.org/project/requests/), a simple python lib that acts liek curl
+
+```py
+import requests
+
+def get_stories(url: str, global_headers: dict):
+    r = requests.get(url + 'stories', headers=global_headers)
+    return r.json()
+```
 
 ## Handling epic matching
 
